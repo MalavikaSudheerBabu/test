@@ -330,9 +330,7 @@ class SimpleNSLKDDProcessor:
 def main():
     print("Starting with real NSL-KDD dataset...")
     
-    # Replace with your actual dataset path
-    dataset_path = "/home/asterbyte/machine_test/intrud_detection/Intrusion-detection-DL-ML/NSL-KDD/KDDTrain+.txt"  # Update this path
-    
+    dataset_path = r"C:\Users\Admin\test\KDDTrain+.csv"
     processor = SimpleNSLKDDProcessor()
     classifier = processor.run_complete_simple_pipeline(dataset_path)
     
