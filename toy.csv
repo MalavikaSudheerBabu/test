@@ -1,0 +1,9 @@
+duration,protocol_type,service,flag,src_bytes,dst_bytes,land,attack_type
+0,tcp,http,SF,239,486,0,normal
+0,tcp,http,SF,235,1337,0,normal
+0,udp,private,SF,105,146,0,neptune
+2,tcp,ftp,SF,0,0,0,normal
+0,icmp,ecr_i,SF,1032,0,0,smurf
+0,tcp,http,REJ,0,0,0,ipsweep
+1,tcp,telnet,SF,52,1124,0,normal
+0,tcp,smtp,SF,23,455,0,guess_passwd
